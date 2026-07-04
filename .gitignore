@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production/Build Outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+
+# Environment Files (Security)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/!.env.example
+
+# Logs
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Coverage
+coverage/
+**/coverage/
+.nyc_output/
+.jest/
+
+# IDE and Editor Cache/Settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Workspaces, Cache, and Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/temp-test-workspace/
+tmp/
+temp/
